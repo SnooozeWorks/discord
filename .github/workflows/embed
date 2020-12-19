@@ -1,0 +1,8 @@
+embed=discord.Embed(title="", url="https://snooozeworks.com/pages/faq", color=0xea3340)
+embed.set_author(name="Frequently Asked Questions", icon_url="https://cdn.shopify.com/s/files/1/2422/1433/files/snooozeworks_circle-red-png.png?v=1604700042")
+embed.add_field(name="Check my Order Status", value="!order-status", inline=True)
+embed.add_field(name="Tracking my Order", value="!track", inline=True)
+embed.add_field(name="Shipping", value="!shipping", inline=True)
+embed.add_field(name="Return Policy", value="!returns", inline=True)
+embed.set_footer(text="For more information, click the title to view our full FAQ")
+await ctx.send(embed=embed)
